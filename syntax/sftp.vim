@@ -7,7 +7,7 @@ syntax keyword sftpCmd ls lchdir chmod chown chgrp lpwd df symlink
 syntax keyword sftpCmd lmkdir
 highlight default link sftpCmd Statement
 
-syntax match sftpOpt "\<-[0-9a-zA-Z][0-9a-zA-Z]*\>"
+syntax match sftpOpt "[ \t]-[0-9a-zA-Z]\+\>"
 syntax match sftpOpt "^-"
 highlight default link sftpOpt Operator
 

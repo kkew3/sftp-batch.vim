@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.sftp set filetype=sftp
+autocmd BufNewFile,BufRead *.sftp set filetype=sftp-batch

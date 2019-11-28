@@ -17,4 +17,8 @@ highlight default link sftpPath String
 syntax match sftpComment "^#.*"
 highlight default link sftpComment Comment
 
+syntax match sftpErr "^--\+"
+syntax match sftpErr "^-\s*$"
+highlight default link sftpErr Error
+
 let b:current_syntax = "sftp-batch"

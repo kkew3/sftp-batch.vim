@@ -4,7 +4,7 @@ endif
 
 syntax keyword sftpCmd get put reget reput rename ln rm mkdir chdir
 syntax keyword sftpCmd ls lchdir chmod chown chgrp lpwd df symlink
-syntax keyword sftpCmd lmkdir
+syntax keyword sftpCmd lmkdir lcd cd
 highlight default link sftpCmd Statement
 
 syntax match sftpOpt "[ \t]-[0-9a-zA-Z]\+\>"
